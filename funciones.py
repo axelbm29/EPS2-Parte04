@@ -1,4 +1,5 @@
 import sqlite3
+
 def registrar_productos():
     print("Registro de Producto")
     codigo = input("Código: ")
@@ -39,3 +40,10 @@ def listar_productos():
 
     conexion.close()
     print("\n\n")
+
+def eliminar_productos():
+    print("Eliminar productos por nombre")
+
+
+def editar_productos():
+    print("Editar Producto por nombre")

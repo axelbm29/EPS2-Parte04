@@ -1,5 +1,6 @@
+from funciones import registrar_productos, listar_productos, eliminar_productos, editar_productos
 from base_datos import inicializar_base_datos
-from funciones import listar_productos, registrar_productos
+
 def mostrar_menu():
     print("Menu Opciones")
     print("\t" + "1. Registrar")
@@ -24,13 +25,13 @@ if __name__ == "__main__":
             continue
 
         if opcion == 1:
-            pass
+            registrar_productos()
         elif opcion == 2:
-            pass
+            eliminar_productos()
         elif opcion == 3:
-            pass
+            editar_productos()
         elif opcion == 4:
-            pass
+            listar_productos()
         elif opcion == 5:
             print("Saliendo del programa.")
             break
