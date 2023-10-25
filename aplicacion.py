@@ -1,4 +1,5 @@
 from base_datos import inicializar_base_datos
+from funciones import listar_productos, registrar_productos
 def mostrar_menu():
     print("Menu Opciones")
     print("\t" + "1. Registrar")
